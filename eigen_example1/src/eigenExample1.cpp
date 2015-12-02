@@ -36,6 +36,4 @@ int main()
 
   cout << "\nVector q in base in homogeneous:" << endl << T_S_B * q_sensor << endl;
   cout << "\nI have multiplied the homogeneous matrix Sensor to Base and the Vector q in Sensor coordinates\n\n" << endl;
-
-
 }
