@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/oos/MASTER/Perception/Eigen/eigen_example1/src/eigenExample.cpp
+iostream
+-
+time.h
+-
+sys/time.h
+-
+math.h
+-
+cstdlib
+-
+eigen3/Eigen/Dense
+-
+eigen3/Eigen/Geometry
+-
+
